@@ -8,6 +8,7 @@
   import FormHandling from "./components/FormHandling.svelte";
   import ListRendering from "./components/ListRendering.svelte";
   import ReactiveDeclarations from "./components/ReactiveDeclarations.svelte";
+  import ReactiveStatements from "./components/ReactiveStatements.svelte";
 </script>
 
 <main>
@@ -20,6 +21,7 @@
   <!-- <EventHandling /> -->
   <!-- <FormHandling /> -->
   <!-- <ReactiveDeclarations /> -->
+  <!-- <ReactiveStatements /> -->
 </main>
 
 <style>
