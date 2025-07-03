@@ -17,7 +17,7 @@
   <!-- <ConditionalRendering/> -->
   <!-- <ListRendering/> -->
   <!-- <EventHandling /> -->
-  <FormHandling />
+  <!-- <FormHandling /> -->
 </main>
 
 <style>
