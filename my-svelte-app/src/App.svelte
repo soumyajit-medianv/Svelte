@@ -8,6 +8,7 @@
   import ParentStyles from "./components/ComponentStyles/ParentStyles.svelte";
   import ConditionalRendering from "./components/ConditionalRendering.svelte";
   import ParentComponent from "./components/Context-API/ParentComponent.svelte";
+  import Tab from "./components/DynamicComponents/Tab.svelte";
   import Outer from "./components/EventForwarding/Outer.svelte";
   import EventHandling from "./components/EventHandling.svelte";
   import FormHandling from "./components/FormHandling.svelte";
@@ -54,6 +55,9 @@
 
   <!-- this binding -->
   <!-- <AutoFocus /> -->
+
+  <!-- Dynamic Components -->
+  <!-- <Tab /> -->
 </main>
 
 <style>
