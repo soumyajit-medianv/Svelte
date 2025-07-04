@@ -9,9 +9,9 @@
 </section>
 
 <style>
-  :global(h3) {
+  /* :global(h3) {
     color: green;
-  }
+  } */
   h4 {
     color: blue;
   }
