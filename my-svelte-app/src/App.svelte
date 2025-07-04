@@ -1,4 +1,5 @@
 <script lang="ts">
+  import AutoFocus from "./components/AutoFocus.svelte";
   import BindingAttributes from "./components/BindingAttributes.svelte";
   import BindingClasses from "./components/BindingClasses.svelte";
   import BindingHtml from "./components/BindingHTML.svelte";
@@ -50,6 +51,9 @@
 
   <!-- HTTP Request -->
   <!-- <HttpRequest /> -->
+
+  <!-- this binding -->
+  <!-- <AutoFocus /> -->
 </main>
 
 <style>
