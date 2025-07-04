@@ -3,6 +3,7 @@
   import BindingClasses from "./components/BindingClasses.svelte";
   import BindingHtml from "./components/BindingHTML.svelte";
   import BindingText from "./components/BindingText.svelte";
+  import PopupParent from "./components/ComponentEvents/PopupParent.svelte";
   import ConditionalRendering from "./components/ConditionalRendering.svelte";
   import ParentComponent from "./components/Context-API/ParentComponent.svelte";
   import EventHandling from "./components/EventHandling.svelte";
@@ -30,7 +31,9 @@
 
   <!-- Context API -->
   <!-- <ParentComponent /> -->
-   
+
+  <!-- Component Event -->
+  <!-- <PopupParent /> -->
 </main>
 
 <style>
