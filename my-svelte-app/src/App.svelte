@@ -14,6 +14,7 @@
   import FormHandling from "./components/FormHandling.svelte";
   import HttpRequest from "./components/HTTPRequest.svelte";
   import ListRendering from "./components/ListRendering.svelte";
+  import CountHandler from "./components/ModuleContext/CountHandler.svelte";
   import Parent from "./components/Props/Parent.svelte";
   import ReactiveDeclarations from "./components/ReactiveDeclarations.svelte";
   import ReactiveStatements from "./components/ReactiveStatements.svelte";
@@ -58,6 +59,9 @@
 
   <!-- Dynamic Components -->
   <!-- <Tab /> -->
+
+  <!-- Module Context -->
+  <!-- <CountHandler /> -->
 </main>
 
 <style>
