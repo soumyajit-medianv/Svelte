@@ -4,6 +4,7 @@
   import BindingHtml from "./components/BindingHTML.svelte";
   import BindingText from "./components/BindingText.svelte";
   import PopupParent from "./components/ComponentEvents/PopupParent.svelte";
+  import ParentStyles from "./components/ComponentStyles/ParentStyles.svelte";
   import ConditionalRendering from "./components/ConditionalRendering.svelte";
   import ParentComponent from "./components/Context-API/ParentComponent.svelte";
   import Outer from "./components/EventForwarding/Outer.svelte";
@@ -42,6 +43,9 @@
 
   <!-- Slots -->
   <!-- <CardParent /> -->
+
+  <!-- Component Styles -->
+  <!-- <ParentStyles /> -->
 </main>
 
 <style>
