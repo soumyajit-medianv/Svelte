@@ -6,6 +6,7 @@
   import PopupParent from "./components/ComponentEvents/PopupParent.svelte";
   import ConditionalRendering from "./components/ConditionalRendering.svelte";
   import ParentComponent from "./components/Context-API/ParentComponent.svelte";
+  import Outer from "./components/EventForwarding/Outer.svelte";
   import EventHandling from "./components/EventHandling.svelte";
   import FormHandling from "./components/FormHandling.svelte";
   import ListRendering from "./components/ListRendering.svelte";
@@ -34,6 +35,9 @@
 
   <!-- Component Event -->
   <!-- <PopupParent /> -->
+
+  <!-- Event Forwarding -->
+  <!-- <Outer /> -->
 </main>
 
 <style>
