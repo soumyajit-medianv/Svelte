@@ -10,6 +10,7 @@
   import Outer from "./components/EventForwarding/Outer.svelte";
   import EventHandling from "./components/EventHandling.svelte";
   import FormHandling from "./components/FormHandling.svelte";
+  import HttpRequest from "./components/HTTPRequest.svelte";
   import ListRendering from "./components/ListRendering.svelte";
   import Parent from "./components/Props/Parent.svelte";
   import ReactiveDeclarations from "./components/ReactiveDeclarations.svelte";
@@ -46,6 +47,9 @@
 
   <!-- Component Styles -->
   <!-- <ParentStyles /> -->
+
+  <!-- HTTP Request -->
+  <!-- <HttpRequest /> -->
 </main>
 
 <style>
