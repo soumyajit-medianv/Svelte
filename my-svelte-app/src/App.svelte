@@ -13,6 +13,7 @@
   import Parent from "./components/Props/Parent.svelte";
   import ReactiveDeclarations from "./components/ReactiveDeclarations.svelte";
   import ReactiveStatements from "./components/ReactiveStatements.svelte";
+  import CardParent from "./components/Slots/CardParent.svelte";
 </script>
 
 <main>
@@ -38,6 +39,9 @@
 
   <!-- Event Forwarding -->
   <!-- <Outer /> -->
+
+  <!-- Slots -->
+  <!-- <CardParent /> -->
 </main>
 
 <style>
