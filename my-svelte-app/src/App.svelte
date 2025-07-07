@@ -15,6 +15,7 @@
   import HttpRequest from "./components/HTTPRequest.svelte";
   import ListRendering from "./components/ListRendering.svelte";
   import CountHandler from "./components/ModuleContext/CountHandler.svelte";
+  import DisplayName from "./components/PersistentStore/DisplayName.svelte";
   import Parent from "./components/Props/Parent.svelte";
   import ReactiveDeclarations from "./components/ReactiveDeclarations.svelte";
   import ReactiveStatements from "./components/ReactiveStatements.svelte";
@@ -74,6 +75,9 @@
   <!-- <Decrement /> -->
   <!-- <Reset /> -->
   <!-- <Timer /> -->
+
+  <!-- Persistent store -->
+  <!-- <DisplayName /> -->
 </main>
 
 <style>
