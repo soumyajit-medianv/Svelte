@@ -1,4 +1,5 @@
 <script lang="ts">
+  import AnimatedList from "./components/Animations/AnimatedList.svelte";
   import AutoFocus from "./components/AutoFocus.svelte";
   import BindingAttributes from "./components/BindingAttributes.svelte";
   import BindingClasses from "./components/BindingClasses.svelte";
@@ -92,6 +93,9 @@
 
   <!-- Transitions -->
   <!-- <Transitions /> -->
+
+  <!-- Animations -->
+  <!-- <AnimatedList /> -->
 </main>
 
 <style>
