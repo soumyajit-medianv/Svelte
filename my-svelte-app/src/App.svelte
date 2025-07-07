@@ -19,6 +19,11 @@
   import ReactiveDeclarations from "./components/ReactiveDeclarations.svelte";
   import ReactiveStatements from "./components/ReactiveStatements.svelte";
   import CardParent from "./components/Slots/CardParent.svelte";
+  import Decrement from "./components/Stores/Decrement.svelte";
+  import Display from "./components/Stores/Display.svelte";
+  import Increment from "./components/Stores/Increment.svelte";
+  import Reset from "./components/Stores/Reset.svelte";
+  import Timer from "./components/Stores/Timer.svelte";
 </script>
 
 <main>
@@ -62,6 +67,13 @@
 
   <!-- Module Context -->
   <!-- <CountHandler /> -->
+
+  <!-- Stores -->
+  <!-- <Display /> -->
+  <!-- <Increment /> -->
+  <!-- <Decrement /> -->
+  <!-- <Reset /> -->
+  <!-- <Timer /> -->
 </main>
 
 <style>
