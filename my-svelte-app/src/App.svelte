@@ -15,6 +15,8 @@
   import HttpRequest from "./components/HTTPRequest.svelte";
   import ListRendering from "./components/ListRendering.svelte";
   import CountHandler from "./components/ModuleContext/CountHandler.svelte";
+  import Spring from "./components/Motion/Spring.svelte";
+  import Tweened from "./components/Motion/Tweened.svelte";
   import DisplayName from "./components/PersistentStore/DisplayName.svelte";
   import Parent from "./components/Props/Parent.svelte";
   import ReactiveDeclarations from "./components/ReactiveDeclarations.svelte";
@@ -82,6 +84,10 @@
 
   <!-- Routing -->
   <!-- <Routing /> -->
+
+  <!-- Motion -->
+  <!-- <Tweened /> -->
+  <!-- <Spring /> -->
 </main>
 
 <style>
