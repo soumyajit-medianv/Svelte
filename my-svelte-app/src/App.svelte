@@ -19,6 +19,7 @@
   import Parent from "./components/Props/Parent.svelte";
   import ReactiveDeclarations from "./components/ReactiveDeclarations.svelte";
   import ReactiveStatements from "./components/ReactiveStatements.svelte";
+  import Routing from "./components/Routing/Routing.svelte";
   import CardParent from "./components/Slots/CardParent.svelte";
   import Decrement from "./components/Stores/Decrement.svelte";
   import Display from "./components/Stores/Display.svelte";
@@ -78,6 +79,9 @@
 
   <!-- Persistent store -->
   <!-- <DisplayName /> -->
+
+  <!-- Routing -->
+  <!-- <Routing /> -->
 </main>
 
 <style>

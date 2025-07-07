@@ -18,6 +18,7 @@
     "vite": "^7.0.0"
   },
   "dependencies": {
-    "@macfja/svelte-persistent-store": "^2.4.2"
+    "@macfja/svelte-persistent-store": "^2.4.2",
+    "svelte-navigator": "^3.2.2"
   }
 }
