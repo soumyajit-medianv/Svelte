@@ -28,6 +28,7 @@
   import Increment from "./components/Stores/Increment.svelte";
   import Reset from "./components/Stores/Reset.svelte";
   import Timer from "./components/Stores/Timer.svelte";
+  import Transitions from "./components/Transitions/Transitions.svelte";
 </script>
 
 <main>
@@ -88,6 +89,9 @@
   <!-- Motion -->
   <!-- <Tweened /> -->
   <!-- <Spring /> -->
+
+  <!-- Transitions -->
+  <!-- <Transitions /> -->
 </main>
 
 <style>
